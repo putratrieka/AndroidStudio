@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Bootcamp</string>
+    <string name="text_form_login">Form Login</string>
+    <string name="text_login">Login Now</string>
+</resources>

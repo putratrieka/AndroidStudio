@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#00FD86"
+    android:orientation="vertical"
+    tools:context=".SplashScreenActivity">
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:background="#0000FD86"
+        android:contentDescription="@string/app_name"
+        android:scaleType="fitCenter"
+        android:layout_margin="10dp"
+        app:srcCompat="@drawable/mylogo"
+        tools:srcCompat="@drawable/mylogo" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="49dp"
+        android:text="Bootcamp EKSAD"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:paddingVertical="10px"
+        android:textSize="28dp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="versi 1.0"
+        android:textSize="18dp" />
+
+</LinearLayout>
